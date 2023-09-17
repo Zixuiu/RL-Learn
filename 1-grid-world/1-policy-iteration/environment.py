@@ -100,7 +100,7 @@ class GraphicDisplay(tk.Tk):
             self.agent.policy_table[2][2] = []
             x, y = self.canvas.coords(self.rectangle)
             self.canvas.move(self.rectangle, UNIT / 2 - x, UNIT / 2 - y)
-
+# 创建文本元素 并添加到文本列表中
     def text_value(self, row, col, contents, font='Helvetica', size=10,
                    style='normal', anchor="nw"):
         origin_x, origin_y = 85, 70
