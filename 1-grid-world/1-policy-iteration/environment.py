@@ -31,7 +31,7 @@ class GraphicDisplay(tk.Tk):
         self.text_reward(2, 2, "R : 1.0")
         self.text_reward(1, 2, "R : -1.0")
         self.text_reward(2, 1, "R : -1.0")
-
+# 绘制UI界面 创建组件
     def _build_canvas(self):
         canvas = tk.Canvas(self, bg='white',
                            height=HEIGHT * UNIT,
