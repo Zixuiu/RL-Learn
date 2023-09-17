@@ -74,7 +74,7 @@ class GraphicDisplay(tk.Tk):
         canvas.pack()
 
         return canvas
-
+# 处理图像
     def load_images(self):
         up = PhotoImage(Image.open("../img/up.png").resize((13, 13)))
         right = PhotoImage(Image.open("../img/right.png").resize((13, 13)))
