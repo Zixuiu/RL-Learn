@@ -2,7 +2,7 @@
 import random
 from environment import GraphicDisplay, Env
 
-
+# 设置环境的一些值和策略表
 class PolicyIteration:
     def __init__(self, env):
         self.env = env
