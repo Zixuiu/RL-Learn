@@ -14,7 +14,7 @@ class PolicyIteration:
         # setting terminal state
         self.policy_table[2][2] = []
         self.discount_factor = 0.9
-
+# 评估给定策略在特定环境下的表现
     def policy_evaluation(self):
         next_value_table = [[0.00] * self.env.width
                                     for _ in range(self.env.height)]
