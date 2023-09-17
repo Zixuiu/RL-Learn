@@ -37,7 +37,7 @@ class PolicyIteration:
             next_value_table[state[0]][state[1]] = round(value, 2)
 
         self.value_table = next_value_table
-
+# 策略
     def policy_improvement(self):
         next_policy = self.policy_table
         for state in self.env.get_all_states():
