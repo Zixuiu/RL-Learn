@@ -13,7 +13,7 @@ POSSIBLE_ACTIONS = [0, 1, 2, 3]  # up, down, left, right
 ACTIONS = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # actions in coordinates
 REWARDS = []
 
-
+#创建一个图形化界面 初始化变量和组件
 class GraphicDisplay(tk.Tk):
     def __init__(self, agent):
         super(GraphicDisplay, self).__init__()
